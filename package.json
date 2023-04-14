@@ -1,0 +1,31 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHALFY007/blog-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHALFY007/blog-backend/issues"
+  },
+  "homepage": "https://github.com/SHALFY007/blog-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
